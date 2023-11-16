@@ -1,6 +1,6 @@
 {
   "android": {
-    "root": "android",
+    "moduleName": "android",
     "dependencies": [
       "com.websitebeaver:documentscanner:1.3.5"
     ]
