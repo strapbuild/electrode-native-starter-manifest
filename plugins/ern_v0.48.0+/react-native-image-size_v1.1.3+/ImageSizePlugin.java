@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 import com.facebook.react.ReactPackage;
 import com.existfragger.rnimagesize.RNImageSizePackage;
 
-public class ElectrodeBridgePlugin implements ReactPlugin {
+public class ImageSizePlugin implements ReactPlugin {
     @Override
     public ReactPackage hook(@NonNull Application application, @Nullable ReactPluginConfig config) {
         return new RNImageSizePackage();
