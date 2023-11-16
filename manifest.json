@@ -1,6 +1,7 @@
 {
   "default": {
     "targetNativeDependencies": [
+      "react-native-image-size@1.1.3"
     ],
     "targetJsDependencies": [
     ]
