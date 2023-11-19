@@ -6,7 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.facebook.react.ReactPackage;
-import com.parsempo.ImageCropTools;
+import com.parsempo.ImageCropTools.ImageCropToolsPackage;
+
 
 public class ImageCropToolsPlugin implements ReactPlugin {
     @Override
