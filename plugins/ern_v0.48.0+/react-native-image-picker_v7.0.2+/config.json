@@ -1,6 +1,9 @@
 {
   "android": {
     "root": "",
-    "moduleName": "android"
+    "moduleName": "android",
+    "dependencies": [
+      "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+    ]
   }
 }
