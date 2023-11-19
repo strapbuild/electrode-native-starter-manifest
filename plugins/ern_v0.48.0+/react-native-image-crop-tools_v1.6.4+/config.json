@@ -1,0 +1,9 @@
+{
+  "android": {
+    "root": "",
+    "moduleName": "android",
+    "dependencies": [
+      "com.github.CanHub:Android-Image-Cropper:4.1.0"
+    ]
+  }
+}
