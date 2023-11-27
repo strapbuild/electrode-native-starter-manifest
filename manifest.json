@@ -5,7 +5,7 @@
       "react-native-document-scanner-plugin@0.9.0",
       "react-native-image-picker@5.0.2",
       "react-native-image-crop-tools@1.6.4",
-      "@react-native-community/cameraroll@7.0.0"
+      "@react-native-camera-roll/camera-roll@6.0.2"
     ],
     "targetJsDependencies": [
     ]
