@@ -8,6 +8,14 @@
       {
         "source": "android/src/paper/java/com/swmansion/reanimated/*",
         "dest": "lib/src/main/java/com/swmansion/reanimated"
+      },
+      {
+        "source": "android/src/reactNativeVersionPatch/messageQueueThread/72/com/swmansion/reanimated/*",
+        "dest": "lib/src/main/java/com/swmansion/reanimated"
+      },
+      {
+        "source": "android/src/reactNativeVersionPatch/ReanimatedUIManager/70/com/swmansion/reanimated/*",
+        "dest": "lib/src/main/java/com/swmansion/reanimated"
       }
     ]
   },
