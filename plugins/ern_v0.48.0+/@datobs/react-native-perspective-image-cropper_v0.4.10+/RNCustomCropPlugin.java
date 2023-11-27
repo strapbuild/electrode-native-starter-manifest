@@ -1,9 +1,8 @@
 package com.walmartlabs.ern.container.plugins;
 
 import android.app.Application;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 
 import com.facebook.react.ReactPackage;
 import fr.michaelvilleneuve.customcrop.RNCustomCropPackage;
