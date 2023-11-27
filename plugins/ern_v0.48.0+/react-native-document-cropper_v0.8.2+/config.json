@@ -7,7 +7,7 @@
     ],
     "copy": [
       {
-        "source": "android/src/oldarch/**",
+        "source": "android/src/oldarch/*",
         "dest": "lib/src/main/java/com/documentcropper"
       }
     ]
