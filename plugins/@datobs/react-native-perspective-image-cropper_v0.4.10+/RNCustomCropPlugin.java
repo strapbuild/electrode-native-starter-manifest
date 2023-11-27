@@ -9,7 +9,7 @@ import com.facebook.react.ReactPackage;
 import fr.michaelvilleneuve.customcrop.RNCustomCropPackage;
 
 
-public class RNCustomCropPluginPlugin implements ReactPlugin {
+public class RNCustomCropPlugin implements ReactPlugin {
     @Override
     public ReactPackage hook(@NonNull Application application, @Nullable ReactPluginConfig config) {
         return new RNCustomCropPackage();
