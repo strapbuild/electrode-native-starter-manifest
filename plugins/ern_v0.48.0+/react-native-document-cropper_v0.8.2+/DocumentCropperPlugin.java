@@ -12,6 +12,6 @@ import com.documentcropper.DocumentCropperPackage;
 public class DocumentCropperPlugin implements ReactPlugin {
     @Override
     public ReactPackage hook(@NonNull Application application, @Nullable ReactPluginConfig config) {
-        return new RNImageSizePackage();
+        return new DocumentCropperPackage();
     }
 }
