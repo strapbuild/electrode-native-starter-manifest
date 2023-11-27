@@ -3,6 +3,12 @@
     "root": "android",
     "dependencies": [
       "androidx.transition:transition:1.1.0"
+    ],
+    "copy": [
+      {
+        "source": "android/src/paper/java/com/swmansion/reanimated/*",
+        "dest": "lib/src/main/java/com/swmansion/reanimated"
+      }
     ]
   },
   "ios": {
