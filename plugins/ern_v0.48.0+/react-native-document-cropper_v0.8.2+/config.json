@@ -4,6 +4,12 @@
     "moduleName": "android",
     "dependencies": [
       "com.caverock:androidsvg:1.4"
+    ],
+    "copy": [
+      {
+        "source": "android/src/oldarch/**",
+        "dest": "lib/src/main/java/com/documentcropper"
+      }
     ]
   }
 }

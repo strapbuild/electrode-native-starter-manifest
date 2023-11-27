@@ -4,12 +4,6 @@
     "moduleName": "android",
     "dependencies": [
       "com.websitebeaver:documentscanner:1.3.5"
-    ],
-    "copy": [
-      {
-        "source": "android/src/oldarch/**",
-        "dest": "lib/src/main/java/com/documentcropper"
-      }
     ]
   }
 }
