@@ -10,6 +10,10 @@
         "source": "android/src/oldarch/*",
         "dest": "lib/src/main/java/com/documentcropper"
       }
+    ],
+    "replaceInFile": [
+      { "path": "lib/src/main/java/com/documentcropper/DocumentCropperPackage.java", "string": "BuildConfig.IS_NEW_ARCHITECTURE_ENABLED", "replaceWith": "false" }
     ]
+
   }
 }
