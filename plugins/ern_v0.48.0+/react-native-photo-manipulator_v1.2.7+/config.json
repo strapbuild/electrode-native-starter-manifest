@@ -1,0 +1,9 @@
+{
+  "android": {
+    "root": "android",
+    "dependencies": [
+      "com.guhungry.android:photo-manipulator:1.0.6"
+    ]
+  },
+  "ios": {}
+}
