@@ -3,6 +3,12 @@
     "root": "android",
     "dependencies": [
       "com.guhungry.android:photo-manipulator:1.0.6"
+    ],
+    "copy": [
+      {
+        "source": "android/src/main/java/com/guhungry/rnphotomanipulator/utils/*",
+        "dest": "lib/src/main/java/com/guhungry/rnphotomanipulator/utils"
+      }
     ]
   },
   "ios": {}
