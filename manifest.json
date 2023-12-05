@@ -14,7 +14,8 @@
       "react-native-pdf@6.1.1",
       "react-native-permissions@3.6.0",
       "react-native-photo-manipulator@1.2.7",
-      "react-native-perspective-image-cropper@0.4.4"
+      "react-native-perspective-image-cropper@0.4.4",
+      "react-native-perspective-image-cropper-2@0.4.4"
     ],
     "targetJsDependencies": [
     ]
