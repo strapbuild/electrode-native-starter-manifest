@@ -12,5 +12,31 @@
       }
     ]
 
+  },
+  "ios": {
+    "copy": [
+      {
+        "dest": "{{{projectName}}}/Libraries/RNCustomCrop",
+        "source": "ios/*"
+      }
+    ],
+    "pbxproj": {
+      "addHeaderSearchPath": [
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/RNCustomCrop/**\""
+      ],
+      "addProject": [
+        {
+          "group": "Libraries",
+          "path": "RNCustomCrop/RNCustomCrop.xcodeproj",
+          "staticLibs": [
+            {
+              "name": "RNCustomCrop.a",
+              "target": "RNCustomCrop"
+            }
+          ]
+        }
+      ]
+    }
   }
+
 }
