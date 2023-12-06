@@ -11,5 +11,30 @@
       }
     ]
   },
-  "ios": {}
+  "ios": {
+    "copy": [
+      {
+        "dest": "{{{projectName}}}/Libraries/RNPhotoManipulator",
+        "source": "ios/*"
+      }
+    ],
+    "pbxproj": {
+      "addHeaderSearchPath": [
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/RNPhotoManipulator/**\""
+      ],
+      "addProject": [
+        {
+          "group": "Libraries",
+          "path": "RNPhotoManipulator/RNPhotoManipulator.xcodeproj",
+          "staticLibs": [
+            {
+              "name": "RNPhotoManipulator.a",
+              "target": "RNPhotoManipulator"
+            }
+          ]
+        }
+      ]
+    }
+  }
+
 }
