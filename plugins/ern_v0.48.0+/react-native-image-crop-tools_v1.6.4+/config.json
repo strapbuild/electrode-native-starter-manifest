@@ -3,7 +3,7 @@
     "root": "",
     "moduleName": "android",
     "dependencies": [
-      "com.vanniktech:android-image-cropper:4.3.3"
+      "com.github.CanHub:Android-Image-Cropper:4.1.0"
     ]
   }
 }
