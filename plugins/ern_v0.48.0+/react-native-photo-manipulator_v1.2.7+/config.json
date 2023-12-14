@@ -34,7 +34,8 @@
           ]
         }
       ]
-    }
+    },
+    "podspec": "react-native-photo-manipulator.podspec"
   }
 
 }
