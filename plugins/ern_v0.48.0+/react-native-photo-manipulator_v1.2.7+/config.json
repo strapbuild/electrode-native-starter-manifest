@@ -29,7 +29,7 @@
           "staticLibs": [
             {
               "name": "libRNPhotoManipulator.a",
-              "target": "libRNPhotoManipulator"
+              "target": "RNPhotoManipulator"
             }
           ]
         }
