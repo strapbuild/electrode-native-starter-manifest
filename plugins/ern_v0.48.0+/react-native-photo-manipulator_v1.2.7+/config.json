@@ -28,8 +28,8 @@
           "path": "RNPhotoManipulator/RNPhotoManipulator.xcodeproj",
           "staticLibs": [
             {
-              "name": "RNPhotoManipulator.a",
-              "target": "RNPhotoManipulator"
+              "name": "libRNPhotoManipulator.a",
+              "target": "libRNPhotoManipulator"
             }
           ]
         }
