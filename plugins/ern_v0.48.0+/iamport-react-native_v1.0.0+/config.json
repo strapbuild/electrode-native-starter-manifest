@@ -3,5 +3,31 @@
     "root": "android",
     "dependencies": [
     ]
+  },
+  "ios": {
+    "copy": [
+      {
+        "dest": "{{{projectName}}}/Libraries/IamportReactNative",
+        "source": "ios/*"
+      }
+    ],
+    "pbxproj": {
+      "addHeaderSearchPath": [
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/IamportReactNative/**\""
+      ],
+      "addProject": [
+        {
+          "group": "Libraries",
+          "path": "IamportReactNative/IamportReactNative.xcodeproj",
+          "staticLibs": [
+            {
+              "name": "libIamportReactNative.a",
+              "target": "IamportReactNative"
+            }
+          ]
+        }
+      ]
+    }
   }
+
 }
