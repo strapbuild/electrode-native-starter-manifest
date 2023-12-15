@@ -2,12 +2,6 @@
   "android": {
     "root": "android",
     "dependencies": [],
-    "permissions": [],
-    "copy": [
-      {
-        "source": "android/src/main/java/com/reactnativeimagemanipulator/*",
-        "dest": "lib/src/main/java/com/oguzhnatly/rnimagemanipulator"
-      }
-    ]
+    "permissions": []
   }
 }
