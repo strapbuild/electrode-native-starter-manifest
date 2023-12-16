@@ -27,7 +27,8 @@
           ]
         }
       ]
-    }
+    },
+    "podspec": "iamport-react-native.podspec"
   }
 
 }
