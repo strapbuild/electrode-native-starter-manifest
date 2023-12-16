@@ -17,7 +17,8 @@
       "react-native-image-resizer@1.2.3",
       "iamport-react-native@2.0.0",
       "@pontusab/react-native-image-manipulator@1.0.6",
-      "@oguzhnatly/react-native-image-manipulator@1.0.5"
+      "@oguzhnatly/react-native-image-manipulator@1.0.5",
+      "react-native-linear-gradient@2.7.3"
     ],
     "targetJsDependencies": [
     ]
