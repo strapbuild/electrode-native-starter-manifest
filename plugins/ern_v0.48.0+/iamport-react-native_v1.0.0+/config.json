@@ -22,7 +22,7 @@
           "staticLibs": [
             {
               "name": "libIamportReactNative.a",
-              "target": "iamport-react-native"
+              "target": "iamport_react_native"
             }
           ]
         }
