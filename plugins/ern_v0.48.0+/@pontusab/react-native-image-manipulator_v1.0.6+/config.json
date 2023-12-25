@@ -15,7 +15,8 @@
       "addHeaderSearchPath": [
         "\"$(SRCROOT)/{{{projectName}}}/Libraries/ImageManipulator/**\""
       ]
-    }
+    },
+    "podspec": "react-native-image-manipulator.podspec"
   }
 
 }
