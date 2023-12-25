@@ -8,7 +8,7 @@
     "copy": [
       {
         "dest": "{{{projectName}}}/Libraries/ImageManipulator",
-        "source": "ios/ImageManipulator/*"
+        "source": "ios/ImageManipulator/**"
       }
     ],
     "pbxproj": {
