@@ -1,0 +1,21 @@
+{
+  "android": {
+    "root": "android",
+    "dependencies": [],
+    "permissions": []
+  },
+  "ios": {
+    "copy": [
+      {
+        "dest": "{{{projectName}}}/Libraries/RNImageManipulator",
+        "source": "ios/**"
+      }
+    ],
+    "pbxproj": {
+      "addHeaderSearchPath": [
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/RNImageManipulator/**\""
+      ]
+    }
+  }
+
+}

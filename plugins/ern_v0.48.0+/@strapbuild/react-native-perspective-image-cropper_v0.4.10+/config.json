@@ -1,0 +1,16 @@
+{
+  "android": {
+    "root": "",
+    "moduleName": "android",
+    "dependencies": [
+      "implementation project(':openCVLibrary455')"
+    ],
+    "copy": [
+      {
+        "source": "android/openCVLibrary455/*",
+        "dest": "openCVLibrary455"
+      }
+    ]
+
+  }
+}

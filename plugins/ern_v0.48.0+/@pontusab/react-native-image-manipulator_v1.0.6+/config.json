@@ -1,0 +1,22 @@
+{
+  "android": {
+    "root": "android",
+    "dependencies": [],
+    "permissions": []
+  },
+  "ios": {
+    "copy": [
+      {
+        "dest": "{{{projectName}}}/Libraries/ImageManipulator",
+        "source": "ios/ImageManipulator/**"
+      }
+    ],
+    "pbxproj": {
+      "addHeaderSearchPath": [
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/ImageManipulator/**\""
+      ]
+    },
+    "podspec": "react-native-image-manipulator.podspec"
+  }
+
+}

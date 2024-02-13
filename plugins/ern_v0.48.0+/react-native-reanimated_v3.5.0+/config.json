@@ -1,0 +1,47 @@
+{
+  "android": {
+    "root": "android",
+    "dependencies": [
+      "androidx.transition:transition:1.1.0"
+    ],
+    "copy": [
+      {
+        "source": "android/src/paper/java/com/swmansion/reanimated/*",
+        "dest": "lib/src/main/java/com/swmansion/reanimated"
+      },
+      {
+        "source": "android/src/reactNativeVersionPatch/messageQueueThread/67/com/swmansion/reanimated/*",
+        "dest": "lib/src/main/java/com/swmansion/reanimated"
+      },
+      {
+        "source": "android/src/reactNativeVersionPatch/ReanimatedUIManager/70/com/swmansion/reanimated/*",
+        "dest": "lib/src/main/java/com/swmansion/reanimated"
+      }
+    ]
+  },
+  "ios": {
+    "copy": [
+      {
+        "dest": "{{{projectName}}}/Libraries/RNReanimated",
+        "source": "ios/*"
+      }
+    ],
+    "pbxproj": {
+      "addHeaderSearchPath": [
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/RNReanimated/**\""
+      ],
+      "addProject": [
+        {
+          "group": "Libraries",
+          "path": "RNReanimated/RNReanimated.xcodeproj",
+          "staticLibs": [
+            {
+              "name": "libRNReanimated.a",
+              "target": "RNReanimated"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

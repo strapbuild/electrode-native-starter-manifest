@@ -1,0 +1,19 @@
+{
+  "android": {
+    "root": "",
+    "moduleName": "android",
+    "dependencies": [
+      "com.caverock:androidsvg:1.4"
+    ],
+    "copy": [
+      {
+        "source": "android/src/oldarch/*",
+        "dest": "lib/src/main/java/com/documentcropper"
+      }
+    ],
+    "replaceInFile": [
+      { "path": "lib/src/main/java/com/documentcropper/DocumentCropperPackage.java", "string": "BuildConfig.IS_NEW_ARCHITECTURE_ENABLED", "replaceWith": "false" }
+    ]
+
+  }
+}

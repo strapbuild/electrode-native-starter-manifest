@@ -1,0 +1,9 @@
+{
+  "android": {
+    "root": "",
+    "moduleName": "android",
+    "dependencies": [
+      "com.vanniktech:android-image-cropper:4.3.3"
+    ]
+  }
+}
