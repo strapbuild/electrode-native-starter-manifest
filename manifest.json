@@ -10,7 +10,7 @@
       "react-native-reanimated@2.1.0",
       "@strapbuild/react-native-perspective-image-cropper@0.4.13",
       "react-native-svg@12.5.1",
-      "react-native-pdf@6.7.5",
+      "react-native-pdf@6.2.1",
       "react-native-permissions@3.6.0",
       "react-native-photo-manipulator@1.2.7",
       "react-native-perspective-image-cropper@0.4.4",
