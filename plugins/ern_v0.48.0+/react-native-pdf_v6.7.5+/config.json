@@ -2,7 +2,8 @@
   "android": {
     "root": "android",
     "dependencies": [
-      "com.github.barteksc:android-pdf-viewer:3.1.0-beta.1",
+      "com.github.zacharee:AndroidPdfViewer:4.0.1",
+      "io.legere:pdfiumandroid:1.0.19",
       "com.google.code.gson:gson:2.8.5"
     ]
   },
