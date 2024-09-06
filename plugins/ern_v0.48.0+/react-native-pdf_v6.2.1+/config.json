@@ -2,8 +2,7 @@
   "android": {
     "root": "android",
     "dependencies": [
-      "com.github.zacharee:AndroidPdfViewer:4.0.1",
-      "io.legere:pdfiumandroid:1.0.19",
+      "com.github.TalbotGooday:AndroidPdfViewer:3.1.0-beta.3",
       "com.google.code.gson:gson:2.8.5"
     ]
   },
